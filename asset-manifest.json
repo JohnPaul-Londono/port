@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/port/static/css/main.9c248f16.chunk.css",
+    "main.js": "/port/static/js/main.7c625ebc.chunk.js",
+    "main.js.map": "/port/static/js/main.7c625ebc.chunk.js.map",
+    "runtime-main.js": "/port/static/js/runtime-main.c573974b.js",
+    "runtime-main.js.map": "/port/static/js/runtime-main.c573974b.js.map",
+    "static/js/2.82785da4.chunk.js": "/port/static/js/2.82785da4.chunk.js",
+    "static/js/2.82785da4.chunk.js.map": "/port/static/js/2.82785da4.chunk.js.map",
+    "index.html": "/port/index.html",
+    "static/css/main.9c248f16.chunk.css.map": "/port/static/css/main.9c248f16.chunk.css.map",
+    "static/js/2.82785da4.chunk.js.LICENSE.txt": "/port/static/js/2.82785da4.chunk.js.LICENSE.txt",
+    "static/media/Spotify.8d744880.png": "/port/static/media/Spotify.8d744880.png",
+    "static/media/Vegan.dc7446b8.png": "/port/static/media/Vegan.dc7446b8.png",
+    "static/media/crypto.4d4fba9e.jpg": "/port/static/media/crypto.4d4fba9e.jpg",
+    "static/media/johnPNGcopy.be3996e4.png": "/port/static/media/johnPNGcopy.be3996e4.png",
+    "static/media/spotify2.74bbc5ea.jpg": "/port/static/media/spotify2.74bbc5ea.jpg",
+    "static/media/vegan2.819f7790.jpg": "/port/static/media/vegan2.819f7790.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c573974b.js",
+    "static/js/2.82785da4.chunk.js",
+    "static/css/main.9c248f16.chunk.css",
+    "static/js/main.7c625ebc.chunk.js"
+  ]
+}
