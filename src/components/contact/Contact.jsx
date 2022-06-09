@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react'
 import "./contact.css"
 import emailjs from '@emailjs/browser';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
     const formRef = useRef();
@@ -35,8 +37,18 @@ const Contact = () => {
                             <button>Send</button>
                         </div>
                     </form>
+                    <div>
+                    <a href="https://github.com/JohnPaul-Londono" target="_blank" rel="noreferrer">
+                        <GitHubIcon className='c-GitHub2' />
+                    </a>
+                    <a href="https://www.linkedin.com/in/john-londono-7a4514231/" target="_blank" rel="noreferrer">
+                        <LinkedInIcon className='c-LinkedIn' />
+                    </a>
+                </div>
                 </div>
                 <div className="c-right">
+                    <div className="glitch" datatype='MoreComingSoon'>MoreComingSoon</div>
+                    <div className="glow">MoreComingSoon</div>
                 </div>
             </div>
         </div>
