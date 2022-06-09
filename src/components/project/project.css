@@ -1,0 +1,61 @@
+
+.p {
+    width: 30%;
+    height: 43vh;
+    margin: 20px 10px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    
+}
+
+
+.p-browser {
+    height: 20px;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+.a-img{
+    height: 25vh;
+    overflow:hidden;
+    width: 100%;
+}
+
+.p-img{
+    width: 100%;
+    transition: all 25s ease;
+}
+
+.p:hover .p-img {
+    transform: translateY(-100%);
+}
+
+.link-demo {
+    margin-top: 10px;
+}
+.GitHub {
+    font-size: 35px !important;
+    margin-top: 10px;
+    color: steelblue;
+}
+
+.p-name{
+    margin-top: 10px;
+    font-size: 25px;
+}

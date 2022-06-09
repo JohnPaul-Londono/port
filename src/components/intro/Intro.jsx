@@ -1,13 +1,24 @@
 import React from 'react'
 import "./intro.css"
-import JohnPic from "../../img/johnPNG.png"
+import JohnPic from "../../img/johnPNGcopy.png"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Intro = () => {
+
+
     return (
         <div className='intro'>
             <div className="intro-left">
                 <div className="intro-left-wrapper">
-
+                    <div>
+                        <a href="https://github.com/JohnPaul-Londono" target="_blank" rel="noreferrer">
+                            <GitHubIcon className='GitHub2' />
+                        </a>
+                        <a href="https://www.linkedin.com/in/john-londono-7a4514231/" target="_blank" rel="noreferrer">
+                            <LinkedInIcon className='LinkedIn' />
+                        </a>
+                    </div>
                     <h1 className='intro-name'>John Londono</h1>
                     <div className="intro-title">
                         <div className="intro-title-wrapper">
@@ -21,13 +32,12 @@ const Intro = () => {
                         Full Stack Developer who is passionate about Problem Solving and Art.
                     </div>
                 </div>
-            
                 <svg
                     width="75"
                     height="75"
                     viewBox="0 0 75 75"
                     fill="none"
-                    stroke="steelblue"
+                    stroke="maroon"
                     className="i-scroll"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -79,6 +89,7 @@ const Intro = () => {
                     </g>
                 </svg>
             </div>
+
             <div className="intro-right">
                 <div className="intro-bg"></div>
                 <img src={JohnPic} alt="johnLondono" className="intro-image" />
