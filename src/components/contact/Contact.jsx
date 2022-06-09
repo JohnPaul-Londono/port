@@ -16,7 +16,7 @@ const Contact = () => {
                 setDone(true)
             }, (error) => {
                 console.log(error.text);
-            });
+            }); 
     }
 
     return (
