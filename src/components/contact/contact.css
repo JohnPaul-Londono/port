@@ -88,7 +88,7 @@ button:active {
 
 .c-LinkedIn {
     font-size: 40px !important;
-    color: rgba(215, 24, 120, 0.813);
+    color: rgba(86, 86, 99, 0.813);
 }
 
 
@@ -103,7 +103,7 @@ button:active {
 
 .glitch,
 .glow {
-    color: #dfbfbf;
+    color: #3cb3e2;
     position: relative;
     font-size: 4vw;
     animation: glitch 5s 5s infinite;
