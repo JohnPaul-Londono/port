@@ -13,12 +13,12 @@
 
 .GitHub2 {
     font-size: 40px !important;
-    color: steelblue;
+    color: rgb(211, 99, 155);
     margin-right: 10px;
 }
 .LinkedIn{
     font-size: 40px !important;
-    color: rgb(215, 24, 119);
+    color: rgb(211, 99, 155);
 }
 
 
@@ -52,8 +52,8 @@
     font-size: 65px;
     font-weight:400;
     font-weight: lighter;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px rgba(177, 225, 253, 0.503);
+    color: rgb(73, 233, 166);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.503);
 
 }
 
@@ -95,10 +95,10 @@
     height: 50px;
     font-size: 25px;
     font-weight: bold;
-    color: rgb(56, 56, 56);
+    color: rgb(27, 126, 197);
     display: flex;
     align-items: center;
-    text-shadow: 1px 1px 1px #d6d6d6;
+    text-shadow: 1px 1px 1px #ffffff;
 }
 
 .intro-description {
