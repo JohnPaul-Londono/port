@@ -8,6 +8,7 @@ import { ThemeContext } from '../../context';
 
 const Contact = () => {
     const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode;
     const formRef = useRef();
     const [done, setDone] = useState(false)
 
@@ -31,10 +32,10 @@ const Contact = () => {
                 <div className="c-left">
                     <h2 className="c-title"> You've made it this far ! Say hi !</h2>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder='Name' name='user_name' />
-                        <input type="text" placeholder='Subject' name='user_subject' />
-                        <input type="text" placeholder='Email' name='user_email' />
-                        <textarea name="message" placeholder='Message' cols="20" rows="6"></textarea>
+                        <input style={{backgroundColor: darkMode && "#2c3236"}} type="text" placeholder='Name' name='user_name' />
+                        <input style={{backgroundColor: darkMode && "#2c3236"}} type="text" placeholder='Subject' name='user_subject' />
+                        <input style={{backgroundColor: darkMode && "#2c3236"}} type="text" placeholder='Email' name='user_email' />
+                        <textarea style={{backgroundColor: darkMode && "#2c3236"}} name="message" placeholder='Message' cols="20" rows="6"></textarea>
                         <div className='c-button'>
                             <div className='c-sent'>
                                 {done && "Sent!"}
@@ -52,8 +53,8 @@ const Contact = () => {
                 </div>
                 </div>
                 <div className="c-right">
-                    <div className="glitch" datatype='MoreComingSoon'>MoreComingSoon</div>
-                    <div className="glow">MoreComingSoon</div>
+                    {/* <div className="glitch" datatype='MoreComingSoon'>MoreComingSoon</div>
+                    <div className="glow">MoreComingSoon</div> */}
                 </div>
             </div>
         </div>

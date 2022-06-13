@@ -94,7 +94,7 @@ const Intro = () => {
             </div>
 
             <div className="intro-right">
-                <div className="intro-bg" style={{backgroundImage:theme.state.darkMode ?'linear-gradient(180deg, #ffffff, #d7a6d8, #f2dbef, #f8c6e1)':'linear-gradient(180deg, #ffffff, #86a8da,#dbe4f2, #aae1ff)' }}></div>
+                <div className="intro-bg" style={{backgroundImage:theme.state.darkMode ?'linear-gradient(180deg, #525e64, #d7a6d8, #f2dbef, #f8c6e1)':'linear-gradient(180deg, #ffffff, #86a8da,#dbe4f2, #aae1ff)' }}></div>
                 <img src={theme.state.darkMode ? JohnPicColor:JohnPic} alt="johnLondono" className="intro-image" />
             </div>
         </div>
