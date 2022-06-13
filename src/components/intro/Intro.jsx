@@ -1,11 +1,14 @@
 import React from 'react'
 import "./intro.css"
 import JohnPic from "../../img/johnPNGcopy.png"
+import JohnPicColor from "../../img/johnPNG.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
 const Intro = () => {
-
+    const theme = useContext(ThemeContext)
 
     return (
         <div className='intro'>
@@ -91,8 +94,8 @@ const Intro = () => {
             </div>
 
             <div className="intro-right">
-                <div className="intro-bg"></div>
-                <img src={JohnPic} alt="johnLondono" className="intro-image" />
+                <div className="intro-bg" style={{backgroundImage:theme.state.darkMode ?'linear-gradient(180deg, #ffffff, #d7a6d8, #f2dbef, #f8c6e1)':'linear-gradient(180deg, #ffffff, #86a8da,#dbe4f2, #aae1ff)' }}></div>
+                <img src={theme.state.darkMode ? JohnPicColor:JohnPic} alt="johnLondono" className="intro-image" />
             </div>
         </div>
     )

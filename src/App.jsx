@@ -12,7 +12,7 @@ const App = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div style={{
-      backgroundColor: darkMode ? "#222" : "white",
+      backgroundColor: darkMode ? "#525e64" : "white",
       color: darkMode && "white", 
     }}>
       <Toggle />

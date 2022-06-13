@@ -3,8 +3,11 @@ import "./contact.css"
 import emailjs from '@emailjs/browser';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
+    const theme = useContext(ThemeContext)
     const formRef = useRef();
     const [done, setDone] = useState(false)
 
@@ -23,7 +26,7 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <div className="c-bg"></div>
+            <div className="c-bg" style={{backgroundImage:theme.state.darkMode ? 'linear-gradient(180deg, #525e64, #d7a6d8, #f8c6e1, #f2dbef, #525e64)': 'linear-gradient(180deg, #ffffff, #b0e0fa, #b5cff9, #5785d4, #ffffff)'}} ></div>
             <div className="c-wrapper">
                 <div className="c-left">
                     <h2 className="c-title"> You've made it this far ! Say hi !</h2>
