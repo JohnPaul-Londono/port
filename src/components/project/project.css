@@ -1,11 +1,10 @@
 
 .p {
     width: 30%;
-    height: 43vh;
+    height: 40%;
     margin: 20px 10px;
     border: 1px solid rgb(220, 220, 220);
     border-radius: 10px 10px 0px 0px;
-    overflow: hidden;
     
 }
 
@@ -57,5 +56,6 @@
 
 .p-name{
     margin-top: 10px;
+    margin-bottom: 5px;
     font-size: 25px;
 }
