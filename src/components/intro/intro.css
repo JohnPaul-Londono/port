@@ -16,7 +16,8 @@
     color: rgb(211, 99, 155);
     margin-right: 10px;
 }
-.LinkedIn{
+
+.LinkedIn {
     font-size: 40px !important;
     color: rgb(211, 99, 155);
 }
@@ -50,7 +51,7 @@
 
 .intro-name {
     font-size: 65px;
-    font-weight:400;
+    font-weight: 400;
     font-weight: lighter;
     /* color: rgb(73, 233, 166); */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.503);
@@ -86,7 +87,7 @@
     height: 50px;
     font-size: 25px;
     font-weight: bold;
-    color: rgb(141,173,220);
+    color: rgb(141, 173, 220);
     display: flex;
     align-items: center;
 }
@@ -109,8 +110,8 @@
     /* clip-path: polygon(100% 0%, 65% 49%, 100% 100%, 25% 100%, 0% 50%, 34% 0); */
     clip-path: circle(47.4% at 92% 42%);
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-image: linear-gradient(180deg, #aae1ff, #dbe4f2,#86a8da, #ffffff);
-    background-image: linear-gradient(180deg, #f8c6e1, #f2dbef,#d7a6d8, #ffffff,#525e64);
+    background-image: linear-gradient(180deg, #aae1ff, #dbe4f2, #86a8da, #ffffff);
+    background-image: linear-gradient(180deg, #f8c6e1, #f2dbef, #d7a6d8, #ffffff, #525e64);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -124,4 +125,21 @@
     height: 100%;
     object-fit: contain;
     position: absolute;
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+    }
+    .intro-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .intro-description{
+        display: none;
+    }
 }

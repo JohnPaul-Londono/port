@@ -83,7 +83,7 @@ button:active {
     font-size: 40px !important;
     color: rgb(211, 99, 155);
     margin-right: 10px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .c-LinkedIn {
@@ -444,5 +444,32 @@ button:active {
 
     2% {
         transform: rotateX(0deg) skewX(0deg);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .c-title {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    form {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        width: 45%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    textarea{
+        width: 90%;
     }
 }

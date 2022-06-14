@@ -59,3 +59,11 @@
     margin-bottom: 5px;
     font-size: 25px;
 }
+
+@media screen and (max-width:480px){
+    .p {
+        width: 40%;
+        height: 20vh;
+
+    }
+}

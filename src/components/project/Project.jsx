@@ -1,7 +1,5 @@
 import React from 'react'
 import "./project.css"
-import spotifyPic from "../../img/Spotify.png"
-import veganPic from "../../img/Vegan.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
