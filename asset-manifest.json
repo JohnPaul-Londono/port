@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.137b22fc.chunk.css",
+    "main.css": "/port/static/css/main.f78e679d.chunk.css",
     "main.js": "/port/static/js/main.4aed897a.chunk.js",
     "main.js.map": "/port/static/js/main.4aed897a.chunk.js.map",
     "runtime-main.js": "/port/static/js/runtime-main.c573974b.js",
@@ -8,7 +8,7 @@
     "static/js/2.c826a33e.chunk.js": "/port/static/js/2.c826a33e.chunk.js",
     "static/js/2.c826a33e.chunk.js.map": "/port/static/js/2.c826a33e.chunk.js.map",
     "index.html": "/port/index.html",
-    "static/css/main.137b22fc.chunk.css.map": "/port/static/css/main.137b22fc.chunk.css.map",
+    "static/css/main.f78e679d.chunk.css.map": "/port/static/css/main.f78e679d.chunk.css.map",
     "static/js/2.c826a33e.chunk.js.LICENSE.txt": "/port/static/js/2.c826a33e.chunk.js.LICENSE.txt",
     "static/media/Spotify.8d744880.png": "/port/static/media/Spotify.8d744880.png",
     "static/media/Vegan.dc7446b8.png": "/port/static/media/Vegan.dc7446b8.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.c573974b.js",
     "static/js/2.c826a33e.chunk.js",
-    "static/css/main.137b22fc.chunk.css",
+    "static/css/main.f78e679d.chunk.css",
     "static/js/main.4aed897a.chunk.js"
   ]
 }
