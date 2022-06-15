@@ -40,7 +40,8 @@ const Intro = () => {
                     height="75"
                     viewBox="0 0 75 75"
                     fill="none"
-                    stroke="maroon"
+                    stroke="currentColor"
+                    style={{ color:theme.state.darkMode ? "palegreen":"maroon" }}
                     className="i-scroll"
                     xmlns="http://www.w3.org/2000/svg"
                 >
