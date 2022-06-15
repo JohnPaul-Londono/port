@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.bf2baed2.chunk.css",
-    "main.js": "/port/static/js/main.b478d0fd.chunk.js",
-    "main.js.map": "/port/static/js/main.b478d0fd.chunk.js.map",
+    "main.css": "/port/static/css/main.859e3dcc.chunk.css",
+    "main.js": "/port/static/js/main.6534dda7.chunk.js",
+    "main.js.map": "/port/static/js/main.6534dda7.chunk.js.map",
     "runtime-main.js": "/port/static/js/runtime-main.c573974b.js",
     "runtime-main.js.map": "/port/static/js/runtime-main.c573974b.js.map",
     "static/js/2.c826a33e.chunk.js": "/port/static/js/2.c826a33e.chunk.js",
     "static/js/2.c826a33e.chunk.js.map": "/port/static/js/2.c826a33e.chunk.js.map",
     "index.html": "/port/index.html",
-    "static/css/main.bf2baed2.chunk.css.map": "/port/static/css/main.bf2baed2.chunk.css.map",
+    "static/css/main.859e3dcc.chunk.css.map": "/port/static/css/main.859e3dcc.chunk.css.map",
     "static/js/2.c826a33e.chunk.js.LICENSE.txt": "/port/static/js/2.c826a33e.chunk.js.LICENSE.txt",
     "static/media/crypto.4d4fba9e.jpg": "/port/static/media/crypto.4d4fba9e.jpg",
     "static/media/johnPNG.5d1697fc.png": "/port/static/media/johnPNG.5d1697fc.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c573974b.js",
     "static/js/2.c826a33e.chunk.js",
-    "static/css/main.bf2baed2.chunk.css",
-    "static/js/main.b478d0fd.chunk.js"
+    "static/css/main.859e3dcc.chunk.css",
+    "static/js/main.6534dda7.chunk.js"
   ]
 }
