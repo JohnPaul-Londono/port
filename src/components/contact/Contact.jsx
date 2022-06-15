@@ -32,10 +32,10 @@ const Contact = () => {
                 <div className="c-left">
                     <h2 className="c-title"> You've made it this far ! Say hi !</h2>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input style={{backgroundColor: darkMode && "#2c3236"}} type="text" placeholder='Name' name='user_name' />
-                        <input style={{backgroundColor: darkMode && "#2c3236"}} type="text" placeholder='Subject' name='user_subject' />
-                        <input style={{backgroundColor: darkMode && "#2c3236"}} type="text" placeholder='Email' name='user_email' />
-                        <textarea style={{backgroundColor: darkMode && "#2c3236"}} name="message" placeholder='Message' cols="20" rows="6"></textarea>
+                        <input style={{backgroundColor: darkMode && "#b5bfc4"}} type="text" placeholder='Name' name='user_name' />
+                        <input style={{backgroundColor: darkMode && "#b5bfc4"}} type="text" placeholder='Subject' name='user_subject' />
+                        <input style={{backgroundColor: darkMode && "#b5bfc4"}} type="text" placeholder='Email' name='user_email' />
+                        <textarea style={{backgroundColor: darkMode && "#b5bfc4"}} name="message" placeholder='Message' cols="20" rows="6"></textarea>
                         <div className='c-button'>
                             <div className='c-sent'>
                                 {done && "Sent!"}

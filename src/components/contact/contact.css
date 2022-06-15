@@ -99,10 +99,11 @@ button:active {
     top: 30%;
     right: 1%;
     font-weight: 700;
+    color: #abb4b8;
 }
 
-.glitch,
-.glow {
+/* .glitch, */
+/* .glow {
     color: #3cb3e2;
     position: relative;
     font-size: 4vw;
@@ -445,7 +446,7 @@ button:active {
     2% {
         transform: rotateX(0deg) skewX(0deg);
     }
-}
+} */
 
 @media screen and (max-width: 480px) {
     .c-wrapper {
