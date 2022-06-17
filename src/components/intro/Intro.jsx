@@ -41,7 +41,7 @@ const Intro = () => {
                     viewBox="0 0 75 75"
                     fill="none"
                     stroke="currentColor"
-                    style={{ color:theme.state.darkMode ? "palegreen":"maroon" }}
+                    style={{ color:theme.state.darkMode ? "palegreen":"brown" }}
                     className="i-scroll"
                     xmlns="http://www.w3.org/2000/svg"
                 >
